@@ -1,0 +1,37 @@
+/* Login and signup forms */
+
+.account-form button {
+    width: 4rem;
+    margin-left: 80px;
+  }
+  
+  #signup-form button {
+    width: 8rem;
+  }
+  
+  .account-forms-container {
+    padding-left: 20px;
+  }
+  
+  /* Styles specific to the login and signup forms */
+  #login-form, #signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #login-form button, #signup-form button {
+    width: auto;
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #login-form button:hover, #signup-form button:hover {
+    background-color: #e65c00;
+  }
+  
